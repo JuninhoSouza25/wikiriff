@@ -1,0 +1,121 @@
+body {
+    font-family: 'Rock Salt', cursive;
+}
+
+header {
+    background-color: black;
+}
+
+.cabecalho {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.secao-principal {
+    width: 100%;
+    float: left;
+    color: black;
+    text-shadow: 2px 2px #ffffff;
+}
+
+.div-imagem-principal {
+    background-image: url(Pics/bg-2.jpg);
+    background-position: center center;
+    width: 50%;
+    height: 534px;
+    float: right;
+}
+
+.imagem-principal {
+    width: 100%;
+    float: right;
+    transition: 1200ms;
+    
+}
+
+.imagem-principal:hover {
+    transform: rotatey(90deg);
+}
+
+.setor-esquerdo {
+    width: 50%;
+    height: 534px;
+    float: left;
+    background-image: url(Pics/guitarra-background.jpg);
+    background-attachment: fixed;
+}
+
+.titulo-secao-principal {
+    font-size: 2em;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.secao-principal p {
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 20px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(Pics/bg.jpg);
+}
+
+footer img {
+    width: 150px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.copyright {
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;    
+    color: #ffffff;
+    font-size: 13px;
+    padding: 0 0 30px 0;
+    margin: 20px 0 0;
+}
+
+.galeria-videos {
+    display: grid;
+    grid-gap: 0.6rem;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+    padding: 20px 20px 80px 20px;
+}
+
+.titulo-galeria {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 3em;
+}
